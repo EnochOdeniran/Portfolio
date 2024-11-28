@@ -1,0 +1,90 @@
+body{
+background-color: #black;
+margin: 20px
+
+}
+
+h1{
+    color: aliceblue;
+
+}
+
+p{
+    color: aliceblue;
+}
+body{ 
+background-image: "https://images1.bovpg.net/fw/back/fr/sale/45aa2b28614e69.jpg";    
+}
+
+.bloc{
+    background-color: rgb(22, 223, 223);
+    top: 50%;
+    right: 20%;
+    margin: 5%;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 300px;
+}
+.bloc1{
+    background-color: blueviolet;
+    top: 50%;
+    right: 20px;
+    margin: 5%;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 300px;
+}
+.bloc2{
+    background-color: red;
+    
+
+
+    padding: 10;
+    border-radius: 5px;
+    max-width: 300px;
+}
+.bloc3{
+    background-color: cornflowerblue;
+
+
+
+    padding: 10;
+    border-radius: 5px;
+    max-width: 300px;
+}
+.bloc4{
+    background-color: brown;
+
+
+
+    padding: 10;
+    border-radius: 5px;
+    max-width: 150px;
+}
+.bloc5{
+    background-color: orangered;
+
+
+
+    padding: 10;
+    border-radius: 5px;
+    max-width: 150px;
+}
+.bloc5{
+
+
+
+
+    padding: 10;
+    border-radius: 5px;
+    max-width: 150px;
+}
+.bloc6{
+
+
+
+
+    padding: 10;
+    border-radius: 5px;
+    max-width: 200px;
+}
