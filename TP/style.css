@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://media.giphy.com/media/qRY3cPYRkyQh2/giphy.gif"); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+
+.header {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.header .subtitle {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+
+.links-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px; 
+    width: 80%;
+    max-width: 1200px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-radius: 10px;
+    margin-top: 100px; 
+}
+
+.link-item {
+    background-color: #b32879;
+    border-radius: 5px;
+    padding: 20px;
+    transition: background-color 0.3s;
+}
+
+.link-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.link-item:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+  
+
+
+  

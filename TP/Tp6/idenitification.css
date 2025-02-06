@@ -1,0 +1,90 @@
+body {
+    background: radial-gradient(circle, #000 0%, #141414 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    overflow: hidden;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    backdrop-filter: blur(10px);
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #e50914;
+    background: linear-gradient(135deg, #e50914, #b81d24);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+input[type="text"]::placeholder, input[type="password"]::placeholder {
+    color: #e50914;
+}
+
+input[type="submit"], input[type="button"] {
+    width: 48%;
+    padding: 10px;
+    margin: 10px 1%;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #e50914, #b81d24);
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover {
+    background: linear-gradient(135deg, #b81d24, #e50914);
+}
+
+/* Animation de particules pour effet galaxie */
+@keyframes particles {
+    0% {
+        transform: translateY(0) rotate(0);
+    }
+    100% {
+        transform: translateY(-200vh) rotate(720deg);
+    }
+}
+
+.particle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 4px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    animation: particles 20s linear infinite;
+    opacity: 0.8;
+}
+
+.particle:nth-child(1) { animation-duration: 15s; animation-delay: -5s; }
+.particle:nth-child(2) { animation-duration: 10s; animation-delay: -2s; }
+.particle:nth-child(3) { animation-duration: 18s; animation-delay: -7s; }
+.particle:nth-child(4) { animation-duration: 12s; animation-delay: -3s; }
+.particle:nth-child(5) { animation-duration: 14s; animation-delay: -6s; }

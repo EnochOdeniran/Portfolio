@@ -1,0 +1,33 @@
+body{
+    font-family: 'Open sans' , sans-serif;
+    background-image: url("https://w.wallhaven.cc/full/47/wallhaven-47w7e9.jpg");
+    font-family: Arial, sans-serif;
+    background-color: rgb(13, 47, 240);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+h1{
+    color: rgb(231, 38, 215);
+} 
+h3{
+    color: rgb(150, 23, 143);
+}
+h4{
+    color: rgb(217, 6, 236);
+}
+h5{
+    color: rgb(139, 19, 139);
+}        
+form{
+    background-color: aliceblue;
+    max-width: 400px;
+margin: 0;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(6, 181, 235, 0.747);   
+
+}
+
+
